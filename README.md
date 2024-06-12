@@ -9,7 +9,7 @@ Dipomoco (DIscord POMOdoro COnsolidator) is a Discord bot designed to elevate yo
 *   **Work Session Tracking:**  Monitor the duration of your work sessions and analyze your productivity trends over time.
 *   **Pomodoro Timer:** Utilize the Pomodoro Technique to maintain focus and avoid burnout.
 *   **Mood & Motivation Tracking:**  Rate your mood and motivation at the start and end of each session to identify patterns and correlations.
-*   **Weekly Summary Emails:** Receive personalized summaries of your work data, including insightful visualizations.
+*   **Weekly Summary Emails:** Receive personalized summaries of your work data, including an insightful visualization.
 *   **Customizable Settings:** Tailor the bot to your preferences (e.g., timezone, summary schedule, mood survey options).
 
 ## Getting Started 🚀
