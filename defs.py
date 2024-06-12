@@ -9,6 +9,7 @@ import mysql.connector
 import pytz
 import smtplib
 import ssl
+import inspect
 from email.message import EmailMessage
 import logging
 import traceback
@@ -353,6 +354,12 @@ def command_not_in_use(ctx):
 
 def get_function_name(func):
     function_name = func.__name__
+    print(function_name)
+    return function_name
+
+def get_caller_function_name():
+    caller_frame = inspect.currentframe().f_back
+    function_name = caller_frame.f_code.co_name
     print(function_name)
     return function_name
 
