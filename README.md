@@ -1,8 +1,8 @@
-# Dipomoco: Your Work & Wellness Companion 🤖
+# Dipomoco: Your Discord Work Companion 🤖
 
-[![Discord Bot Invite Link](https://img.shields.io/badge/Invite%20Bot-blue?style=for-the-badge&logo=discord)](YOUR_BOT_INVITE_LINK)
+[![Discord Bot Invite Link](https://img.shields.io/badge/Invite%20Bot-blue?style=for-the-badge&logo=discord)](https://discord.com/oauth2/authorize?client_id=1228591178060927006&permissions=274877983744&response_type=code&redirect_uri=https%3A%2F%2Fdiscord.com%2Fapi%2Foauth2%2Fauthorize%3Fclient_id%3D1228591178060927006%26redirect_uri%3Dhttps%253A%252F%252Fdiscord.com%252Fapi%252Foauth2%252Fauthorize%26response_type%3Dcode&integration_type=0&scope=email+bot+identify+dm_channels.messages.read+dm_channels.messages.write+messages.read+applications.commands)
 
-Dipomoco is a Discord bot that enhances your work experience by tracking your productivity, mood, and motivation. It provides valuable insights to help you optimize your workflow and well-being.
+Dipomoco (DIscord POMOdoro COnsolidator) is a Discord bot designed to elevate your work experience by tracking productivity, mood, and motivation. It provides valuable insights to help you optimize your workflow and well-being, culminating in a weekly summary email that consolidates your work data and progress.
 
 ## Key Features ✨
 
@@ -19,24 +19,20 @@ Dipomoco is a Discord bot that enhances your work experience by tracking your pr
 3.  **Start Tracking:** Begin a work session with `!start` or a Pomodoro session with `!pomodoro`.
 4.  **Explore Commands:** Type `!help` for a list of available commands.
 
-## Missing Files ⚠️
+## Missing Configuration ⚠️
 
-This repository contains the core code for the Dipomoco bot. However, to protect sensitive information, the following files are not included:
+This repository contains the core code for the **Dipomoco bot**.  However, it does not include certain **configuration files or credentials** required to run the bot due to their sensitive nature.
 
-*   **`discordtoken.py`:** Contains the Discord bot token required for authentication.
-*   **`emailpasscode.py`:** Contains the email account credentials used to send summary emails.
-*   **`databasepasscode.py`:** Contains the database password for connecting to the MySQL server.
+### Before Running the Bot
 
-To run the bot yourself, you'll need to create these files and add your own credentials. Refer to the `docs/configuration.md` file for detailed instructions on how to set up these files and configure the bot.
+You'll need to provide the following:
 
-## Documentation 📚
+* **Discord Bot Token:** Your unique identifier for the bot, obtainable from the [Discord Developer Portal](https://discord.com/developers/applications).
+* **External Service Credentials:** If the bot uses external services (e.g., email providers, databases), you'll need the login information (username, password, API keys, etc.).
+* **Additional Configuration:** The bot might require other details like database connections, channel IDs, or specific settings.
 
-Dive into the `docs/` folder for detailed guides on:
+This list may not be exhaustive.
 
-*   **Getting Started:** Step-by-step instructions for installing and setting up Dipomoco.
-*   **Configuration:** How to customize the bot's behavior and settings.
-*   **Command Reference:** A comprehensive list of all available commands and their usage.
-*   **Troubleshooting:** Tips and tricks for resolving common issues.
 
 ## Contributing 🙌
 
