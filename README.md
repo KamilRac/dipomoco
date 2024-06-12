@@ -1,6 +1,6 @@
 # Dipomoco: Your Discord Work Companion 🤖
 
-[![Discord Bot Invite Link](https://img.shields.io/badge/Invite%20Bot-blue?style=for-the-badge&logo=discord)](https://discord.com/oauth2/authorize?client_id=1228591178060927006&permissions=274877983744&response_type=code&redirect_uri=https%3A%2F%2Fdiscord.com%2Fapi%2Foauth2%2Fauthorize%3Fclient_id%3D1228591178060927006%26redirect_uri%3Dhttps%253A%252F%252Fdiscord.com%252Fapi%252Foauth2%252Fauthorize%26response_type%3Dcode&integration_type=0&scope=email+bot+identify+dm_channels.messages.read+dm_channels.messages.write+messages.read+applications.commands){:target="_blank"}
+<a href="YOUR_BOT_INVITE_LINK" target="_blank"><img src="https://img.shields.io/badge/Invite%20Bot-blue?style=for-the-badge&logo=discord" alt="Invite Bot"></a>
 
 Dipomoco (DIscord POMOdoro COnsolidator) is a Discord bot designed to elevate your work experience by tracking productivity, mood, and motivation. It provides valuable insights to help you optimize your workflow and well-being, culminating in a weekly summary email that consolidates your work data and progress.
 
