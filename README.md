@@ -23,17 +23,6 @@ Dipomoco (DIscord POMOdoro COnsolidator) is a Discord bot designed to elevate yo
 
 This repository contains the core code for the **Dipomoco bot**.  However, it does not include certain **configuration files or credentials** required to run the bot due to their sensitive nature.
 
-### Before Running the Bot
-
-You'll need to provide the following:
-
-* **Discord Bot Token:** Your unique identifier for the bot, obtainable from the [Discord Developer Portal](https://discord.com/developers/applications).
-* **External Service Credentials:** If the bot uses external services (e.g., email providers, databases), you'll need the login information (username, password, API keys, etc.).
-* **Additional Configuration:** The bot might require other details like database connections, channel IDs, or specific settings.
-
-This list may not be exhaustive.
-
-
 ## Contributing 🙌
 
 We welcome contributions to Dipomoco! If you have any ideas for new features, improvements, or bug fixes, please open an issue or submit a pull request.
