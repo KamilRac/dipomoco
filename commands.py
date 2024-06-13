@@ -73,6 +73,7 @@ async def custom_help(ctx):
 * `!start` or `!startwork`: Starts a new work session.
 * `!finish` or `!finishwork`: Ends the current work session and records the duration.
 * `!pomodoro`: Starts a 25-minute pomodoro session with a short break afterwards.
+* `!howlong`: Shows the duration of the current work session or the time remaining in a pomodoro session.
 
 **Other Commands:**
 
